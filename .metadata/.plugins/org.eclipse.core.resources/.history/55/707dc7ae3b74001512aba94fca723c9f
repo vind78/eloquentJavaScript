@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+function reversearray(array){
+	arraylength = array.length;
+	console.log(arraylength);
+	var j  = arraylength;
+	var arr = [];
+	for (i=0;i<arraylength;i++)
+		{
+		a[j-1] = array[i];
+		j-=1
+		}
+	
+	return (a);
+	
+}
+var a = [1 ,2 ,3, 4];
+reversearray(a);
+console.log(a);

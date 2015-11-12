@@ -1,0 +1,11 @@
+/**
+ * 
+ */
+function remove(array,index){
+	console.log(array.slice(0,index));
+	console.log(array.slice(index+1);)
+	return array.slice(0,index).concat(array.slice(index+1));
+	
+}
+remove(["a","b","c","d","e"],2);
+//console.log(remove(["a","b","c","d","e"],2));

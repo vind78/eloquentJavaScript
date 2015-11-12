@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+
+function arrayToList(array){
+	var list = {};
+	for (i=0;i<array.length;i++){
+		list.value = i;
+		list.rest = arrayToList(array.shift());
+		}	
+	return list;
+}
+console.log(list);

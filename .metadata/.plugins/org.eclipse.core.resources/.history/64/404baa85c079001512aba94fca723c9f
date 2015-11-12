@@ -1,0 +1,21 @@
+/*
+function arrayToList(arr) {
+  var li = {};
+  li.value=arr[0], arr.shift();
+  if(arr.length) li.rest=arrayToList(arr);
+  else li.rest=null; 
+  return li;
+}
+*/
+ 
+var list ={};
+function arrayToList(array)
+	{
+	
+	list.value = array[0],	array.shift();
+	if (array.length) list.rest = arrayToList(array);
+	else list.rest = null;
+	return list;
+	
+	}
+console.log(arrayToList([10,20,30]));

@@ -1,0 +1,17 @@
+/**
+ * 
+ */
+function multiplier(factor){
+	
+	return function(number){
+		return function (anothernumber){
+			
+			anothernumber * factor*2;
+		} ;
+	};
+};
+var twice = multiplier(2);
+//console.log(multiplier(2));
+//console.log(twice);
+var twiceagain = twice(5);
+console.log(twiceagain(2));

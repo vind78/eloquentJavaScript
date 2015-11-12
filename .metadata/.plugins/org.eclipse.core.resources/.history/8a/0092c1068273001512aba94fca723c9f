@@ -1,0 +1,11 @@
+/**
+ * 
+ */
+var arr = {};
+function range(start,end){
+	for (i=start;i<=end;i++){
+		arr[i-1] = i;		
+	}
+	return arr;
+}
+console.log(range(1,10));

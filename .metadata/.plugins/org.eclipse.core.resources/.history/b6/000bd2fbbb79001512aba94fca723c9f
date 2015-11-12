@@ -1,0 +1,23 @@
+/**
+ * 
+ *//*
+var list = null;
+function arrayToList(array){
+	
+	for (i=0;i<array.length;i++){
+		list = {value: array[i], rest : list}
+			
+	return console.log(list);}	
+}
+arrayToList([1,2,3]);
+console.log(list);
+*/
+var list = null;
+function arrayToList( array ) {
+	  var list = null;
+
+	  for( i = array.length-1; i >= 0; i-- )
+	    list = { value: array[i], rest: list };
+
+	  return list;
+	}

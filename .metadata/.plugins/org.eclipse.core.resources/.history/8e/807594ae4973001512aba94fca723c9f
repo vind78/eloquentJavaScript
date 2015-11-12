@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+var fmin = function(a,b){
+	if (a==b) console.log("values are same");
+	else if (a<b)console.log(b+ " is minimum"||a+" is minimum");
+	
+}
+f(2,3);

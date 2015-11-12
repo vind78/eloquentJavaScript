@@ -1,0 +1,7 @@
+/**
+ * 
+ */
+function isEven(number){
+	if (number > 1) return isEven(number-2);
+	else return number;
+};

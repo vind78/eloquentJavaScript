@@ -1,0 +1,25 @@
+/**
+ * 
+ */
+var arr = [];
+function range(start,end,step){
+	var j = 0;
+	for (i=start;i<=end;i=i+step){
+		arr[j] = i;
+		j+=0;
+	}
+	return arr;
+}
+//sumarr(range(10,12));
+console.log((range(5,2,-1)));
+
+function sumarr(array){
+	var c = 0;
+	for(i=0;i<array.length;i++){
+		
+		c+=array[i];
+	}
+	return(c);
+
+}
+//console.log(sumarr(range(1,10)));

@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+var bsize = 8;
+var space = " ", hash = "#";
+for (i=1;i<=bsize;i++){
+	var box = "";
+	if (i%2==0) box+=hash;
+	else box+=space;
+	
+	
+}

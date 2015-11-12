@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+var isEven = function(number){
+	if (number = 0) console.log("number is even");
+	else if (number == 1) console.log("number is odd");
+	else console.log("only positive integers at this point");
+	return function ()
+	
+}

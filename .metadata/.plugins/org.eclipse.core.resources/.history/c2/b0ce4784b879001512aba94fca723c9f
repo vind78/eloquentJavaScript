@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+var ar = [1, 2, 3];
+console.log(ar.length);
+function arraytoList(array){
+	var list = {};
+	for (i=0;i<array.length;i++){
+		list.value = i;
+		
+		
+	}	
+	return list;
+}

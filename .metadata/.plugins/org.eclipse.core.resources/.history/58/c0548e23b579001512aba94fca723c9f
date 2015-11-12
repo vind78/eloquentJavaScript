@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+var ar = [1, 2, 3];
+console.log(ar.length);
+for (i=0;i<ar.length;i++){
+	
+	
+	
+}

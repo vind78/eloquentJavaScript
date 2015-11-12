@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;eloquentChapter2/WebContent/triangels.js&apos; to &apos;triangle.js&apos;" description="Rename resource &apos;triangels.js&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/triangels.js" name="triangle.js" stamp="1444338425077" updateReferences="true"/>
+</session>

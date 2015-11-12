@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+var list = {};
+function arrayToList(array){
+	
+	for (i=0;i<array.length;i++){
+		list = {value: array[i], rest : list}
+		}	
+	return list;
+}
+arrayToList([1,2,3]);
+console.log(list);

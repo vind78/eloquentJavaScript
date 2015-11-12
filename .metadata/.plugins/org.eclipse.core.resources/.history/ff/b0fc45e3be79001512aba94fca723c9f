@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+var list ={};
+function arrayToList(array)
+	{
+	for (i=0;i<array.length;i++)	
+		{
+	list.value = array[i];
+	console.log(list);
+	list.rest = list;
+	
+		}	
+	return list;
+	}
+
+
+
+console.log(arrayToList([10,20]));

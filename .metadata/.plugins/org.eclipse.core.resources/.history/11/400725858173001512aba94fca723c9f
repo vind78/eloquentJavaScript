@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+var arr = {};
+function range(start,end){
+	for (i=start;i<end;i++){
+		arr[i] = i;		
+	}
+	return arr;
+}

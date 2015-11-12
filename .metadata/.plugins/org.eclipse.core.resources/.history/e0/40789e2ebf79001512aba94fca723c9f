@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+var list ={};
+function arrayToList(array)
+	{
+	for (i=0;i<array.length;i++)	
+		{
+	list.value = array[i];
+	
+	if (i== array.length-1) 
+		{
+		list.rest = 'NULL' }
+		else {list.rest = list;}
+	
+		}	
+	return list;
+	}
+
+
+
+console.log(arrayToList([10,20,30]));

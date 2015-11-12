@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+function reversearray(array){
+	j = array.length;
+	var arr = [];
+	for (i=0;i<arraylength;i++)
+		{
+		arr[j] = array[i];
+		j-=1
+		}
+	
+}

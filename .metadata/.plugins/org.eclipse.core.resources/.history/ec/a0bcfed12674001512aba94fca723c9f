@@ -1,0 +1,63 @@
+/**
+ * 
+ */
+var arr = [];
+function range(start,end,step){
+	var j = 0;
+	arraylength = Math.abs(start-end);
+	if(!step) {step = 1;}
+	if (start>end) 
+	{
+		i = end; 
+		end = start;
+		start = i;
+		j = arraylength;
+		for (i=start; i<=end;i++)
+		{ar[j]= i;
+		j-=1;
+		}	
+		return ar;
+	} 
+	for (i=start;i<=end;i=i+step){
+		
+		arr[j] = i;
+		j+=1;
+		
+	}
+	return arr;
+}
+//sumarr(range(10,12));
+
+var ar = [];
+function test(start,end){
+	
+	console.log(arraylength);
+	var j = 0,i;
+	if (start>end) 
+	{
+		i = end; 
+		end = start;
+		start = i;
+		j = arraylength;
+	
+	} 
+	for (i=start; i<=end;i++)
+	{ar[j]= i;
+	j-=1;
+	}	
+	return ar;
+}
+console.log(test(5,3));
+
+//console.log((range(-5,2,1)));
+
+function sumarr(array){
+	var c = 0;
+	for(i=0;i<array.length;i++){
+		
+		c+=array[i];
+	}
+	return(c);
+
+}
+//console.log(sumarr(range(1,10)));

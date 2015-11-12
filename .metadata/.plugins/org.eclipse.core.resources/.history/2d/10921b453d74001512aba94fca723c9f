@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+function reversearray(array){
+	arraylength = array.length;
+	var arr = array; var j  = arraylength;
+	
+	for (i=0;i<arraylength;i++)
+		{
+		//console.log(arr[i]);
+		console.log(a[j-1],arr[i]);
+		//console.log(arr[i]);
+		a[i] = arr[j-1];
+		j-=1
+		}
+	
+	return console.log(a);
+	
+}
+var a = [1 ,2 ,3, 4];
+reversearray(a);
+//console.log(a);

@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+var list ={};
+function arrayToList(array){
+	
+	for (i=0;i<array.length;i++){
+		list = {value: array[i], rest : arrayToList(array)
+				}
+			
+	return console.log(list);}	
+}
+
+
+
+console.log(arrayToList([10,20]));

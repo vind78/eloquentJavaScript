@@ -1,0 +1,40 @@
+
+function arrayToList(array) {
+    // I use an object constructor notation here
+    var list = new Object();
+    // This is to end the recursion, if array.length == 1, the function won't call itself and instead
+    // Just give rest = null
+    if (array.length == 1) {
+        list.value = array[array.length - 1];
+        list.rest = null;
+        return list;
+    } else {
+        // This is to continue the recursion.  If the array.length is not == 1, make the rest key to call arrayToList function
+        list.value = array[0];
+        // To avoid repetition, splice the array to make it smaller
+        array.splice(0,1);
+        list.rest = arrayToList(array);
+        return list;
+    }
+}
+
+ /*
+var list ={};
+function arrayToList(array)
+	{
+	for (i=0;i<array.length;i++)	
+		{
+	list.value = array[i];
+	
+	if (i== array.length-1) 
+		{
+		list.rest = 'NULL' }
+		else {list.rest = list;}
+	
+		}	
+	return list;
+	}
+*/
+
+
+console.log(arrayToList([10,20,30]));

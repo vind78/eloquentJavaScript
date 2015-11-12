@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+function countBs(astring){
+	var i = astring.length
+	while (i > 0){
+		if (astring.charAt(i)=="B") var c +=1;
+		i-=1;
+		
+	}
+	return(c);
+}
+console.log(countBs("BBC"));
